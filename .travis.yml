@@ -3,3 +3,6 @@ jdk: oraclejdk8
 services:
   - rabbitmq
   - redis-server
+  
+before_install:
+  - chmod +x mvnw
